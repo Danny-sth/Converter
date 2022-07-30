@@ -1,5 +1,6 @@
 package com.danny.app;
 
+import com.danny.app.utils.ConverterToRoman;
 import com.danny.app.utils.impl.ConverterIntegerToRoman;
 
 import java.util.InputMismatchException;
@@ -18,7 +19,7 @@ public class Main {
      *
      * @param converter
      */
-    private static void run(ConverterIntegerToRoman converter) {
+    private static void run(ConverterToRoman converter) {
 
         inputRead().stream()
                 .mapToObj(converter::convert)
