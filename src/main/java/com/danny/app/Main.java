@@ -34,7 +34,7 @@ public class Main {
         try {
             return OptionalInt.of(scanner.nextInt());
         } catch (InputMismatchException e) {
-            System.out.println("Блять нормальным языком написано введи integer :)" + "\n");
+            System.out.println("Enter fucking integer bro :)" + "\n");
         }
         return OptionalInt.empty();
     }
